@@ -111,7 +111,7 @@ img.responsive {
 
 div {
     width: 100%;
-    height: 400px;
+    height: 370px;
 }
 
 .lublin {
@@ -134,7 +134,7 @@ div {
     left: 0;
     top: 0;
     width: 100%;
-    height: 370px;
+    height: 350px;
     
 }
 
@@ -174,3 +174,6 @@ div {
         background: #ffffffa6;
         }
 
+.separator {
+    height: 100px;
+}
