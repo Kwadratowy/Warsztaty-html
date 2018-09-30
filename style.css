@@ -1,0 +1,170 @@
+* {
+    box-sizing:border-box;
+}
+
+
+header {
+    text-align: center;
+    font-size: 56px;
+}
+
+
+body {
+    background:rgb(204, 209, 207);
+    font-size: 18px
+}
+
+#pies {
+    background-color: green;
+
+}
+
+a {
+    color: pink;
+}
+
+a:visited {
+    columns: #000000;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: tomato;
+}
+
+#kot {
+    font-size: 40px;
+}
+
+.motyl {
+    font-size: 40px
+}
+
+.alpaka {
+    background-color: blue;
+    font-size: 36px
+}
+
+main {
+    background: pink;
+    width: 300px;
+    height: 400px;
+
+/*Sposób1
+    padding: 30px;
+    padding-left: 10px*/
+
+    padding: 30px 30px 30px 10px;
+
+/*Sposób2
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: 30px;*/
+
+    margin: 50px;
+    border: 3px green solid;
+    float: right;
+}
+
+
+main:hover {
+
+    border: 3px blueviolet dotted;
+}
+
+
+aside {
+    width: 200px;
+    float: left;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+
+}
+
+aside > section p:nth-child(1) {
+color: red;
+}
+
+aside p {
+    background: pink !important;
+}
+
+footer {
+text-align: center;
+}
+
+img.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+div {
+    width: 100%;
+    height: 400px;
+}
+
+.lublin {
+    width: 100%;
+    height: 400px;
+    background-image: url("https://podroze.smcloud.net/t/photos/t/142016/spacer-po-lublinie_1098104.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px soild red;
+}
+
+.flexible-video-16-9 {
+   position: relative;
+   width: 100%;
+   padding-top: 56.25%;
+}
+
+.flexible-video-16-9 > iframe {
+    border: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.col-1 { width: 8.33%; }
+.col-2 { width: 16.66%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33%; }
+.col-5 { width: 41.66%; }
+.col-6 { width: 50%; }
+.col-7 { width: 58.33%; }
+.col-8 { width: 66.66%; }
+.col-9 { width: 75%; }
+.col-10 { width: 83.33%; }
+.col-11 { width: 91.66%; }
+.col-12 { width: 100%; }
+
+[class *="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+  }
+
+
+.row {
+    clear: both;
+}
+
+@media only screen and (max-width:500px){
+    body {
+    background-color: lightblue; 
+      }
+    }
