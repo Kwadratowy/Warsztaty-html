@@ -1,17 +1,15 @@
 * {
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
-
 
 header {
     text-align: center;
     font-size: 60px;
 }
 
-
 body {
     background:rgb(204, 209, 207);
-    font-size: 18px
+    font-size: 18px;
 }
 
 #pies {
@@ -22,7 +20,7 @@ body {
 
 a {
     color:blue;
-    font-size: 18px; !important;
+    font-size: 18px; !important
 }
 
 a:visited {
@@ -44,7 +42,6 @@ a:active {
 .motyl {
     font-size: 18px;
     font:message-box;
-    
 }
 
 .alpaka {
@@ -70,7 +67,7 @@ main {
     padding-bottom: 30px;
     padding: 30px;*/
 
-    
+
     border: 3px green solid;
     float: right;
 }
@@ -137,7 +134,7 @@ div {
     top: 0;
     width: 100%;
     height: 370px;
-    
+
 }
 
 .col-1 { width: 8.33%; }
@@ -160,13 +157,13 @@ div {
     text-align: center;
   }
 .row {
-    clear: both;e
+    clear: both;
     font:message-box;
 }
 
 @media only screen and (max-width:500px){
     body {
-    background-color: lightblue; 
+    background-color: lightblue;
       }
     }
 
@@ -183,4 +180,12 @@ div {
 .col-3 {
     height:100px;
     text-align: center;
+}
+
+.lublin boczny{
+    width: 100%;
+    background-image: url("https://podroze.smcloud.net/t/photos/t/142016/spacer-po-lublinie_1098104.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
 }
