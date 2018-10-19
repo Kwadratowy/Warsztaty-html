@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #9998;
+}
+
+#wrapper{
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    overflow: hidden;
+}
+#main-navigation{
+    background: #181818;
+    padding: 10px;
+}
+
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#main-navigation li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#main-navigation a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px;
+}
+
+#main-navigation a:hover{
+    background-color: red;
+}
+#main-navigation a.current{
+    background: #8f746c;
+    border-radius: 4px;
+}
+#lead-banner h1{
+    background-color: #ee940ee8;
+    /background-position: center;
+    color:#000;
+    font-size: 50px;
+    border: 1px;
+    padding:10px;
+    box-sizing: border-box;
+    margin: 10px 100px;
+}
+
+#lead-banner{
+    background-image: url(pics/morewahwahs.jpg);
+    width:100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+
+#best-seller{
+    margin:30px 30px;
+    text-align: center;
+    border:0 #ee940ee8 solid;
+    box-sizing: border-box;
+}
+
+#best-seller h1{
+    border: #7970af;
+    color: #181818;
+    background-color: #7970af;
+    box-sizing: border-box;
+    padding:5px;
+    margin:10px 327px;
+}
+#best-seller h2{
+    font-size: 17px;
+}
+
+.button{
+    margin-bottom: 10px;
+    padding:10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #7970af;
+    border:none;
+    border-radius:4px;
+}
+.button a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+}
+.button:hover{
+    background-color:crimson;
+}
+.button a:visited{
+    color:#181818;
+}
+
+#best-seller span.price{
+    display:block;
+    margin:5px 5px;
+    font-size: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#best-seller a.add-to-bag{
+    text-transform: uppercase;
+    display:block;
+    color:red;
+    font-size: 12px;
+    text-decoration: none;
+    border:2px solid #8f746c;
+    padding: 10px 0;
+    margin: 10px 350px;
+}
+
+#outro h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin:25px;
+
+}
+
+.footer-banner{
+    background-image: url(pics/wahwahs.jpg);
+    width:100%;
+    height:400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+
+.my-form{
+    padding:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+}
+.form-group{
+    padding-bottom:15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"]{
+    width:80%;
+    padding:8px;
+}
+.my-form p{
+    text-align:center;
+}
